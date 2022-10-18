@@ -72,7 +72,7 @@ body {
     display: block;
     text-decoration: none;
     padding: 15px;
-    font-weight: 600;
+    font-weight: 500;
     color: #4dbd95;
 }
 
@@ -178,3 +178,67 @@ body {
 }
 
 /* achievementcss ends */
+
+/* footercss starts */
+.footer {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.footer h4 {
+    color: #04AA6D;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    padding-top: 0;
+    padding: 0;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+.footer .email a{
+    font-style: 34px;
+    color: #363958;
+    text-decoration: none;
+    padding: 20px 0;
+    margin: 0;
+    display: inline-block;
+}
+
+.footer-social ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.fa-brands {
+    color: #04AA6D;
+}
+
+.footer-social ul li {
+    display: inline-grid;
+    padding: 10px;
+}
+
+.footer-social ul a {
+    width: 40px;
+    height: 40px;
+}
+
+
+
+.copyright {
+    padding-top: 20px;
+}
+
+.copyright a {
+    display: inline-block;
+    color: #f46060;
+    font-family: 'Montserrat';
+    text-decoration: none;
+    font-weight: bold;
+}
+/* footercss ends */
